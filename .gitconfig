@@ -1,0 +1,7 @@
+[user]
+	name = Joni Van Roost
+	email = joni.vanroost@student.kdg.be
+[github]
+	user = JoniVR
+[core]
+	excludesfile = ~/.gitignore_global
