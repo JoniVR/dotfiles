@@ -18,8 +18,6 @@ set showcmd
 :syntax on
 " Show file title at top
 :set title
-" Make Vim more useful
-set nocompatible
 " Enchance command-line completion
 set wildmenu
 set wildmode=longest:full,full
