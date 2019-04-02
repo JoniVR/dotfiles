@@ -18,6 +18,14 @@ set showcmd
 :syntax on
 " Show file title at top
 :set title
+" Make Vim more useful
+set nocompatible
 " Enchance command-line completion
 set wildmenu
 set wildmode=longest:full,full
+" load templates
+augroup templates
+  au!
+  " read in templates files
+  autocmd BufNewFile *.* silent! execute '0r ~/.vim/templates/skeleton.'.expand("<afile>:e")
+augroup END
